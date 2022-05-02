@@ -9,7 +9,19 @@ const filterProductsBtn = document.querySelectorAll(
 
 toggleBtn.addEventListener('click', (e) => {
   e.preventDefault();
-  navbar.classList.toggle('active');
+
+  const toggleActive = () => {
+    navbar.classList.toggle('active');
+    navbar.removeEventListener('animationend', toggleActive);
+  };
+
+  if (navbar.classList.contains('active')) {
+    navbar.style.animation = 'scaleDown 0.5s forwards';
+    navbar.addEventListener('animationend', toggleActive);
+  } else {
+    navbar.style.animation = 'scaleUp 0.5s forwards';
+    navbar.classList.toggle('active');
+  }
 });
 
 filterProductsBtnGroup.addEventListener('click', (e) => {
