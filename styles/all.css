@@ -427,7 +427,14 @@ img {
     display: block;
   }
   .nav-bar li {
-    margin-bottom: 5px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .nav-bar li:hover {
+    background-color: #eaf0ed;
+  }
+  .nav-bar a {
+    pointer-events: none;
   }
 
   main.d-flex {
