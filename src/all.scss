@@ -3,6 +3,7 @@
 @import 'helper.scss';
 @import 'layout.scss';
 @import 'base.scss';
+@import 'animation.scss';
 
 .logo {
   height: 40px;
@@ -293,22 +294,5 @@
   .pagination {
     width: 100%;
     justify-content: center;
-  }
-}
-
-@keyframes scaleUp {
-  from {
-    transform: translateY(-100%);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes scaleDown {
-  to {
-    transform: scale(0);
   }
 }
