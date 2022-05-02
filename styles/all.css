@@ -456,6 +456,7 @@ img {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 375px;
+    margin-bottom: 0;
   }
 
   .card {
