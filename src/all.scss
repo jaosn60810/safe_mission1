@@ -27,10 +27,11 @@
 }
 
 .shopping-cart {
-  display: flex;
-  align-items: center;
-
   margin-left: 19px;
+
+  img {
+    vertical-align: bottom;
+  }
 }
 
 .banner {

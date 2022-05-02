@@ -189,6 +189,7 @@ table {
 *::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  outline: 1px red solid;
 }
 
 body {
@@ -232,13 +233,10 @@ img {
 }
 
 .shopping-cart {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-left: 19px;
+}
+.shopping-cart img {
+  vertical-align: bottom;
 }
 
 .banner {
