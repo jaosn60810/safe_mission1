@@ -1,0 +1,281 @@
+@import 'reset.scss';
+@import 'variable.scss';
+@import 'helper.scss';
+@import 'layout.scss';
+@import 'base.scss';
+
+.logo {
+  height: 40px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 40px;
+
+  ul {
+    margin-left: auto;
+  }
+}
+
+.nav-item {
+  padding-right: 60px;
+
+  line-height: 73px;
+}
+
+.shopping-cart {
+  display: flex;
+  align-items: center;
+
+  margin-left: 19px;
+}
+
+.banner {
+  object-fit: cover;
+  object-position: center center;
+}
+
+.list-group {
+  width: 300px;
+}
+
+.list-group-title {
+  border: 1px solid #eaf0ed;
+
+  height: 65px;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 40px;
+  color: white;
+
+  background-color: $primary;
+}
+
+.list-group-item {
+  border: 1px solid #eaf0ed;
+
+  height: 65px;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 40px;
+
+  cursor: pointer;
+
+  &.active {
+    background-color: $secondary;
+  }
+
+  a {
+    pointer-events: none;
+  }
+}
+
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  width: 620px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+}
+
+.card-body {
+  display: flex;
+
+  height: 56px;
+
+  text-align: center;
+  color: $primary;
+  font-size: 1.25rem;
+}
+
+.card-title {
+  width: 173px;
+
+  padding-top: 14px;
+  padding-bottom: 14px;
+
+  border: 1px solid $secondary;
+
+  font-weight: 300;
+}
+
+.card-text {
+  width: 127px;
+
+  padding-top: 14px;
+  padding-bottom: 14px;
+
+  border: 1px solid $secondary;
+}
+
+.card-button {
+  width: 100%;
+  height: 65px;
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  border: 1px solid $secondary;
+
+  text-align: center;
+  font-size: 1.5rem;
+
+  background-color: $secondary;
+
+  cursor: pointer;
+}
+
+.badges {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 36px;
+  height: 107px;
+
+  -webkit-writing-mode: vertical-lr;
+  writing-mode: vertical-lr;
+  color: white;
+  text-align: center;
+  letter-spacing: 5px;
+
+  background-color: $primary;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.favorite {
+  position: absolute;
+  top: 19px;
+  right: 22px;
+}
+
+.page-item {
+  width: 60px;
+  height: 60px;
+
+  border: 1px solid $secondary;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.25rem;
+
+  &.active {
+    background-color: $primary;
+
+    a {
+      color: white;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 375px;
+  }
+
+  .menu {
+    display: inline-block;
+
+    cursor: pointer;
+
+    width: 18px;
+    height: 12px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logo-mb {
+    display: inline-block;
+
+    width: 114px;
+    height: 18px;
+  }
+
+  header.mb-2 {
+    margin-bottom: 0;
+  }
+
+  .nav {
+    margin-left: 30px;
+    margin-right: 30px;
+
+    ul {
+      display: none;
+    }
+  }
+
+  .nav-bar {
+    &.active {
+      display: block;
+    }
+
+    text-align: center;
+
+    li {
+      margin-bottom: 5px;
+    }
+  }
+
+  main.d-flex {
+    flex-direction: column;
+  }
+
+  nav.mr-0 {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .list-group-item {
+    width: 375px;
+  }
+
+  .card-group {
+    flex-direction: column;
+
+    width: 375px;
+  }
+
+  .card {
+    width: 315px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  .card-title {
+    width: 183px;
+  }
+
+  .card-text {
+    width: 132px;
+  }
+
+  .pagination {
+    width: 100%;
+    justify-content: center;
+  }
+}

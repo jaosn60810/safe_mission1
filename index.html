@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sweetaste</title>
+    <link rel="stylesheet" href="./styles/all.css" />
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <div class="container mx-auto">
+      <header class="mb-2">
+        <!--   導覽列   -->
+        <nav class="nav mt-1 mb-1">
+          <!--  手機 - 漢堡     -->
+          <img
+            id="js-toggle-btn"
+            class="d-none menu"
+            src="https://hexschool.github.io/webLayoutTraining1st/student-week1/dehaze-24px.png"
+            alt="Sweetaste Logo"
+          />
+
+          <!--  手機 - LOGO 圖片     -->
+          <img
+            class="d-none logo-mb"
+            src="https://hexschool.github.io/webLayoutTraining1st/student-week1/logotype-sm-dark.svg"
+            alt="Sweetaste Logo"
+          />
+
+          <!--   桌機 - LOGO 圖片     -->
+          <img
+            class="logo"
+            src="https://hexschool.github.io/webLayoutTraining1st/student-week1/logo-all-dark.svg"
+            alt="Sweetaste Logo"
+          />
+
+          <!--   桌機版 - 導覽列內容     -->
+          <ul class="d-flex">
+            <li class="nav-item"><a href="#">首頁</a></li>
+            <li class="nav-item"><a href="#">甜點</a></li>
+            <li class="nav-item"><a href="#">登入</a></li>
+          </ul>
+
+          <!--    購物車按鈕      -->
+          <div class="shopping-cart">
+            <a href="#">
+              <img
+                src="https://hexschool.github.io/webLayoutTraining1st/student-week1/shopping_cart.png"
+                alt="shopping cart"
+              />
+            </a>
+          </div>
+        </nav>
+
+        <!--   手機版 - 導覽列內容     -->
+        <ul id="js-navbar" class="d-none nav-bar">
+          <li><a href="#">首頁</a></li>
+          <li><a href="#">甜點</a></li>
+          <li><a href="#">登入</a></li>
+        </ul>
+
+        <!--   Banner   -->
+        <img
+          class="banner"
+          src="https://hexschool.github.io/webLayoutTraining1st/student-week1/banner.png"
+          alt="banner"
+        />
+      </header>
+
+      <main class="d-flex">
+        <!--  產品分類側欄    -->
+        <nav class="mr-0">
+          <ul id="js-filter-products-btn" class="list-group">
+            <li class="list-group-title">甜點類別</li>
+            <li class="list-group-item">
+              <a href="#">所有甜點（48）</a>
+            </li>
+            <li class="list-group-item"><a href="#">本日精選（10）</a></li>
+            <li class="list-group-item"><a href="#">人氣推薦（26）</a></li>
+            <li class="list-group-item"><a href="#">新品上市（12）</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <!-- 卡片群組 -->
+          <div class="card-group">
+            <div class="card mr-0 mb-0">
+              <img
+                src="https://hexschool.github.io/webLayoutTraining1st/student-week1/p-1.png"
+                alt="card image"
+              />
+              <div class="card-body">
+                <h2 class="card-title">焦糖馬卡龍</h2>
+                <p class="card-text">NT$ 450</p>
+              </div>
+              <button class="card-button">加入購物車</button>
+              <p class="badges">本日精選</p>
+              <a href="#">
+                <img
+                  class="favorite"
+                  src="https://hexschool.github.io/webLayoutTraining1st/student-week1/favorite_border.png"
+                  alt="favorite icon"
+              /></a>
+            </div>
+
+            <div class="card mb-0">
+              <img
+                src="https://hexschool.github.io/webLayoutTraining1st/student-week1/p-2.png"
+                alt="card image"
+              />
+              <div class="card-body">
+                <h2 class="card-title">焦糖馬卡龍</h2>
+                <p class="card-text">NT$ 450</p>
+              </div>
+              <button class="card-button">加入購物車</button>
+              <p class="badges">本日精選</p>
+              <a href="#">
+                <img
+                  class="favorite"
+                  src="https://hexschool.github.io/webLayoutTraining1st/student-week1/favorite_border.png"
+                  alt="favorite icon"
+              /></a>
+            </div>
+
+            <div class="card mr-0 mb-0">
+              <img
+                src="https://hexschool.github.io/webLayoutTraining1st/student-week1/p-3.png"
+                alt="card image"
+              />
+              <div class="card-body">
+                <h2 class="card-title">焦糖馬卡龍</h2>
+                <p class="card-text">NT$ 450</p>
+              </div>
+              <button class="card-button">加入購物車</button>
+              <p class="badges">本日精選</p>
+              <a href="#">
+                <img
+                  class="favorite"
+                  src="https://hexschool.github.io/webLayoutTraining1st/student-week1/favorite_border.png"
+                  alt="favorite icon"
+              /></a>
+            </div>
+
+            <div class="card mb-0">
+              <img
+                src="https://hexschool.github.io/webLayoutTraining1st/student-week1/p-4.png"
+                alt="card image"
+              />
+              <div class="card-body">
+                <h2 class="card-title">焦糖馬卡龍</h2>
+                <p class="card-text">NT$ 450</p>
+              </div>
+              <button class="card-button">加入購物車</button>
+              <p class="badges">本日精選</p>
+              <a href="#">
+                <img
+                  class="favorite"
+                  src="https://hexschool.github.io/webLayoutTraining1st/student-week1/favorite_border.png"
+                  alt="favorite icon"
+              /></a>
+            </div>
+
+            <div class="card mr-0 mb-0">
+              <img
+                src="https://hexschool.github.io/webLayoutTraining1st/student-week1/p-5.png"
+                alt="card image"
+              />
+              <div class="card-body">
+                <h2 class="card-title">焦糖馬卡龍</h2>
+                <p class="card-text">NT$ 450</p>
+              </div>
+              <button class="card-button">加入購物車</button>
+              <p class="badges">本日精選</p>
+              <a href="#">
+                <img
+                  class="favorite"
+                  src="https://hexschool.github.io/webLayoutTraining1st/student-week1/favorite_border.png"
+                  alt="favorite icon"
+              /></a>
+            </div>
+
+            <div class="card mb-0">
+              <img
+                src="https://hexschool.github.io/webLayoutTraining1st/student-week1/p-6.png"
+                alt="card image"
+              />
+              <div class="card-body">
+                <h2 class="card-title">焦糖馬卡龍</h2>
+                <p class="card-text">NT$ 450</p>
+              </div>
+              <button class="card-button">加入購物車</button>
+              <p class="badges">本日精選</p>
+              <a href="#">
+                <img
+                  class="favorite"
+                  src="https://hexschool.github.io/webLayoutTraining1st/student-week1/favorite_border.png"
+                  alt="favorite icon"
+              /></a>
+            </div>
+          </div>
+
+          <!--    Pagination    -->
+          <ul class="pagination d-flex justify-content-end">
+            <li class="page-item">
+              <a href="#">
+                <img
+                  src="https://hexschool.github.io/webLayoutTraining1st/student-week1/arrow_left.png"
+                  alt="previous page"
+                />
+              </a>
+            </li>
+            <li class="page-item active"><a href="#">1</a></li>
+            <li class="page-item"><a href="#">2</a></li>
+            <li class="page-item"><a href="#">3</a></li>
+            <li class="page-item">
+              <a href="#">
+                <img
+                  src="https://hexschool.github.io/webLayoutTraining1st/student-week1/arrow_right.png"
+                  alt="next page"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

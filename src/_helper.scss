@@ -1,0 +1,40 @@
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mr-0 {
+  margin-right: $spacer / 3 * 2;
+}
+
+.mb-0 {
+  margin-bottom: $spacer / 3 * 2;
+}
+
+.mt-1 {
+  margin-top: $spacer;
+}
+
+.mb-1 {
+  margin-bottom: $spacer;
+}
+
+.mb-2 {
+  margin-bottom: $spacer * 2;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-none {
+  display: none;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
