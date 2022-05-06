@@ -71,8 +71,6 @@
 .list-group-item {
   border: 1px solid #eaf0ed;
 
-  height: 65px;
-
   padding-top: 15px;
   padding-bottom: 15px;
 
@@ -113,8 +111,6 @@
 .card-body {
   display: flex;
 
-  height: 56px;
-
   text-align: center;
   color: $primary;
   font-size: 1.25rem;
@@ -123,8 +119,8 @@
 .card-title {
   width: 173px;
 
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: 17px;
+  padding-bottom: 17px;
 
   border: 1px solid $secondary;
 

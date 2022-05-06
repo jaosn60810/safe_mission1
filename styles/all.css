@@ -307,7 +307,6 @@ img {
 
 .list-group-item {
   border: 1px solid #eaf0ed;
-  height: 65px;
   padding-top: 15px;
   padding-bottom: 15px;
   text-align: center;
@@ -352,7 +351,6 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 56px;
   text-align: center;
   color: #3f5d45;
   font-size: 1.25rem;
@@ -360,8 +358,8 @@ img {
 
 .card-title {
   width: 173px;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: 17px;
+  padding-bottom: 17px;
   border: 1px solid #eaf0ed;
   font-weight: 300;
 }
