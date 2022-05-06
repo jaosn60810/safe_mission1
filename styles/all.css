@@ -432,7 +432,7 @@ img {
     height: 12px;
   }
 
-  .logo {
+  .logo-link {
     display: none;
   }
 
@@ -440,6 +440,10 @@ img {
     display: inline-block;
     width: 114px;
     height: 18px;
+  }
+
+  .shopping-cart {
+    margin-left: 0;
   }
 
   header.mb-2 {
