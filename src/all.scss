@@ -184,14 +184,13 @@
 }
 
 .page-item {
-  width: 60px;
-  height: 60px;
-
   border: 1px solid $secondary;
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+  width: 60px;
 
   font-size: 1.25rem;
 
@@ -201,6 +200,17 @@
     a {
       color: white;
     }
+  }
+
+  a {
+    display: block;
+
+    width: 100%;
+
+    text-align: center;
+
+    padding-top: 19px;
+    padding-bottom: 19px;
   }
 }
 
