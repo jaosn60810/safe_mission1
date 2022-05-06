@@ -204,6 +204,7 @@ a {
 img {
   max-width: 100%;
   height: auto;
+  vertical-align: top;
 }
 
 @-webkit-keyframes scaleUp {
