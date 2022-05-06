@@ -411,8 +411,6 @@ img {
 }
 
 .page-item {
-  width: 60px;
-  height: 60px;
   border: 1px solid #eaf0ed;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -423,6 +421,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 60px;
   font-size: 1.25rem;
 }
 .page-item.active {
@@ -430,6 +429,13 @@ img {
 }
 .page-item.active a {
   color: white;
+}
+.page-item a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-top: 19px;
+  padding-bottom: 19px;
 }
 
 @media screen and (max-width: 992px) {
