@@ -82,6 +82,10 @@
 
   cursor: pointer;
 
+  &:hover {
+    background-color: $secondary;
+  }
+
   &.active {
     background-color: $secondary;
   }
@@ -151,6 +155,11 @@
   background-color: $secondary;
 
   cursor: pointer;
+
+  &:hover {
+    background-color: $primary;
+    color: #fff;
+  }
 }
 
 .badges {

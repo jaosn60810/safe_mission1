@@ -315,6 +315,9 @@ img {
   line-height: 40px;
   cursor: pointer;
 }
+.list-group-item:hover {
+  background-color: #eaf0ed;
+}
 .list-group-item.active {
   background-color: #eaf0ed;
 }
@@ -380,6 +383,10 @@ img {
   font-size: 1.5rem;
   background-color: #eaf0ed;
   cursor: pointer;
+}
+.card-button:hover {
+  background-color: #3f5d45;
+  color: #fff;
 }
 
 .badges {
