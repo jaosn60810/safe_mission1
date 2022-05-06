@@ -264,12 +264,19 @@ img {
 }
 
 .nav-item {
-  padding-right: 60px;
   line-height: 73px;
+}
+.nav-item a {
+  display: block;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.nav-item a:hover {
+  background-color: #eaf0ed;
 }
 
 .shopping-cart {
-  margin-left: 19px;
+  margin-left: 50px;
 }
 .shopping-cart img {
   vertical-align: bottom;

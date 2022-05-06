@@ -22,13 +22,21 @@
 }
 
 .nav-item {
-  padding-right: 60px;
-
   line-height: 73px;
+
+  a {
+    display: block;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  a:hover {
+    background-color: $secondary;
+  }
 }
 
 .shopping-cart {
-  margin-left: 19px;
+  margin-left: 50px;
 
   img {
     vertical-align: bottom;
